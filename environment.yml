@@ -1,0 +1,15 @@
+name: cdss
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fastapi
+  - uvicorn
+  - sqlalchemy>=2.0
+  - psycopg2
+  - pydantic
+  - python-dotenv
+  - faker
+  - pip
+  - pip:
+      - async-exit-stack
